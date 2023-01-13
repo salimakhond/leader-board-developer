@@ -275,58 +275,23 @@ nav {
     latest courses style end
 ------------------------------*/
 
-/*----------------------------
-    media queries
-------------------------------*/
+/*-----------------------
+    media queries style
+-------------------------*/
 /* mobile device */
-@media only screen and (max-width:688px){
-    *{
+@media only screen and (max-width:688px) {
+    * {
         margin: auto;
     }
+
     .header {
         width: 100%;
     }
+
     .nav-lists {
         display: none;
     }
-    .container {
-        width: 100%;
-        padding: 0px;
-    }
-    .section-title {
-        margin-top: 30px;
-    }
-    .players,.blogs,.courses {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .player {
-        flex-direction: column;
-    }
-    .top-blogs {
-        padding: 20px;
-        padding-top: 0;
-    }
-    .section-title {
-        text-align: center;
-    }
-    .blog {
-        flex-direction: column;
-        text-align: center;
-    }
-    .latest-courses{
-        padding: 0px 20px;
-    }
-}
-@media only screen and (min-width: 689px) and (max-width: 992px) {
-    *{
-        margin: auto;
-    }
-    .header {
-        width: 100%;
-    }
-    .nav-lists {
-        display: none;
-    }
+
     .container {
         width: 100%;
         padding: 0px;
@@ -335,27 +300,93 @@ nav {
     .section-title {
         margin-top: 30px;
     }
-    .players,.blogs,.courses {
-        grid-template-columns: repeat(2, 1fr);
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .player {
         flex-direction: column;
     }
+
     .top-blogs {
         padding: 20px;
         padding-top: 0;
     }
+
     .section-title {
         text-align: center;
     }
-    .blogs,.courses {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
     .blog {
         flex-direction: column;
         text-align: center;
     }
-    .latest-courses{
+
+    .latest-courses {
         padding: 0px 20px;
     }
 }
+
+/* tab device */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+
+    * {
+        margin: auto;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .nav-lists {
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .section-title {
+        margin-top: 30px;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .top-blogs {
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .latest-courses {
+        padding: 0px 20px;
+    }
+}
+/*---------------------------
+    media queries style end
+-----------------------------*/

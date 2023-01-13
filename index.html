@@ -1,12 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board Develop</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/3513e7fba6.js" crossorigin="anonymous"></script>
+    <!-- style sheath -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <h1>futgvuyjgbyugbybygb</h1>
+    <!-- header start -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <a href="">
+                    <img src="images/icons/logo.png" alt="">
+                    <h2>Idea</h2>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-lists">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Works</a></li>
+                </ul>
+
+                <div class="profile">
+                    <a href=""><img src="images/icons/profile.png" alt=""></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main class="main">
+        <!-- top players and top blogs  -->
+        <section class="section container">
+            <!-- top players -->
+            <div class="top-players">
+                <h2 class="section-title">Top Player</h2>
+                <div class="players">
+                    <div class="player">
+                        <img src="images/players/player-1.png" alt="">
+                        <h3 class="player-name">John Smith</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-2.png" alt="">
+                        <h3 class="player-name">Pro Rasel</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-3.png" alt="">
+                        <h3 class="player-name">Abu Sufian</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-4.png" alt="">
+                        <h3 class="player-name">Shajedul Karim</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-5.png" alt="">
+                        <h3 class="player-name">Maruf Ahmed</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-6.png" alt="">
+                        <h3 class="player-name">Mujahid</h3>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <!-- top blogs -->
+            <div class="top-blogs">
+                <h2 class="section-title">Top Blog</h2>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="blog-author">By <a href="">Danny Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">UI cheat sheet: list vs grids</h3>
+                            <p class="blog-author">By <a href="">Tess Gadd</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">7 typography tips for interface design</h3>
+                            <p class="blog-author">By <a href="">Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="blog-image">
+                            <img src="images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p class="blog-author">By <a href="">Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- top blogs end -->
+        </section>
+        <!-- top players nad top blogs end  -->
+
+        <!-- latest courses -->
+        <section class="section container">
+            <div class="latest-courses">
+                <h2 class="section-title">Lates Course</h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image"><img src="images/courses/course-1.png" alt=""></div>
+                    <div class="course-details">
+                        <h3 class="course-title">React - The Complete Guide 2020</h3>
+                        <p class="course-author"><a href="">Reed Krakoff.</a></p>
+                        <div class="course-info">
+                            <ul class="rattings">
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star gray"></i></a></li>
+                                <span>4.5</span>
+                            </ul>
+
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="time">1:30 hr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image"><img src="images/courses/course-2.png" alt=""></div>
+                    <div class="course-details">
+                        <h3 class="course-title">React - The Complete Guide 2020</h3>
+                        <p class="course-author"><a href="">Reed Krakoff.</a></p>
+                        <div class="course-info">
+                            <ul class="rattings">
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star gray"></i></a></li>
+                                <span>4.5</span>
+                            </ul>
+
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="time">1:30 hr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image"><img src="images/courses/course-3.png" alt=""></div>
+                    <div class="course-details">
+                        <h3 class="course-title">React - The Complete Guide 2020</h3>
+                        <p class="course-author"><a href="">Reed Krakoff.</a></p>
+                        <div class="course-info">
+                            <ul class="rattings">
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star"></i></a></li>
+                                <li class="ratting"><a href=""><i class="fa-solid fa-star gray"></i></a></li>
+                                <span>4.5</span>
+                            </ul>
+
+                            <div class="timing">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="time">1:30 hr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- latest courses end-->
+    </main>
+    <!-- main end  -->
 </body>
+
 </html>
